@@ -8,8 +8,8 @@ public class Fraction {
         this.integerVlue = integerVlue;
     }
 
-    public Fraction plus(Fraction fraction) {
-        return this;
+    public Fraction plus(Fraction that) {
+        return that.integerVlue != 0 ? that : this;
     }
 
     public int intValue() {
