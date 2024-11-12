@@ -28,5 +28,11 @@ bin/
 ### Mac OS ###
 .DS_Store
 
+### Ignore idea artifacts
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/sonarlint/
+
 ### Ignore build output
 */classes
