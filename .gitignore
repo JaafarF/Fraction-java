@@ -32,7 +32,7 @@ bin/
 *.iws
 .idea/workspace.xml
 .idea/tasks.xml
-.idea/sonarlint/
+.idea/sonarlint/*
 
 ### Ignore build output
 */classes
