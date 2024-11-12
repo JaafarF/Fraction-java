@@ -9,11 +9,7 @@ public class Fraction {
     }
 
     public Fraction plus(Fraction that) {
-        if (that.integerVlue  != 0) {
-            return new Fraction(this.integerVlue + that.integerVlue);
-        } else {
-            return this;
-        }
+        return new Fraction(this.integerVlue + that.integerVlue);
     }
 
     public int intValue() {
